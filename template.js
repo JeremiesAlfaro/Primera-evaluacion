@@ -16,4 +16,11 @@ var hobbyList = new vue({
             {message: "Salir con mis amigos"}
         ]
     }
+});
+
+var app = new vue({
+    el: '#app',
+    data: {
+        seen: 'No'
+    }
 })
