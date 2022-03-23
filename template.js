@@ -1,11 +1,11 @@
-var intro = new vue({
+var intro = new Vue({
     el: '#intro',
     data: {
         message: 'Estos son mis hobbies: '
     }
 });
 
-var hobbyList = new vue({
+var hobbyList = new Vue({
     el: '#hobbyList',
     data: {
         bucl:[
@@ -18,7 +18,7 @@ var hobbyList = new vue({
     }
 });
 
-var app = new vue({
+var app = new Vue({
     el: '#app',
     data: {
         seen: 'No'
