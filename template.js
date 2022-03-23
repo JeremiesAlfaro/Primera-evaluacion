@@ -21,6 +21,6 @@ var hobbyList = new Vue({
 var app = new Vue({
     el: '#app',
     data: {
-        seen: 'No'
+        seen: 'Si'
     }
 })
