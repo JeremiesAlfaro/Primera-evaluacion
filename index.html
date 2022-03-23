@@ -1,12 +1,32 @@
+<!DOCTYPE html>
 <html>
     <head>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
         <title>Primera evaluación</title>
         <style>
-            .div1{
+            .titlebox{
             border: 5px outset rgb(15, 224, 25);
             background-color: rgb(161, 9, 9);
             text-align: center;
             }
         </style>
     </head>
+    <body>
+        <div class="titlebox">
+            <h1 style="color:rgb(0, 0, 0)">Primera evaluacion</h1>
+            <p style="font-family:'sans-serif'; color: rgb(0, 0, 0);">Jeremies Julian Alfaro Hernandez <br> A01282692 </p>
+        </div>
+        <div id="intro">
+            {{message}}
+        </div>
+        <br>
+        <div id="hobbyList">
+            <ol>
+                <li v-for="msg in bucl">
+                    {{msg.message}}
+                </li>
+            </ol>
+        </div>
+        <script src="template.js"></script>
+    </body>
 </html>
