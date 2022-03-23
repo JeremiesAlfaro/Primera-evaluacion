@@ -9,11 +9,11 @@ var hobbyList = new vue({
     el: '#hobbyList',
     data: {
         bucl:[
-            {message: "1-. Escuchar música y tocar instrumentos musicales"},
-            {message: "2-. Jugar videojuegos y juegos de mesa con mis amigos"},
-            {message: "3-. Asistir a conciertos y festivales"},
-            {message: "4-. Leer comics de DC"},
-            {message: "5-. Salir con mis amigos"},
+            {message: "Escuchar música y tocar instrumentos musicales"},
+            {message: "Jugar videojuegos y juegos de mesa con mis amigos"},
+            {message: "Asistir a conciertos y festivales"},
+            {message: "Leer comics de DC"},
+            {message: "Salir con mis amigos"}
         ]
     }
-});
+})

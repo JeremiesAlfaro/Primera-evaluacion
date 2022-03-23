@@ -16,14 +16,15 @@
             <h1 style="color:rgb(0, 0, 0)">Primera evaluacion</h1>
             <p style="font-family:'sans-serif'; color: rgb(0, 0, 0);">Jeremies Julian Alfaro Hernandez <br> A01282692 </p>
         </div>
+        <br>
         <div id="intro">
             {{message}}
         </div>
         <br>
         <div id="hobbyList">
             <ol>
-                <li v-for="msg in bucl">
-                    {{msg.message}}
+                <li v-for="hbs in bucl">
+                    {{hbs.message}}
                 </li>
             </ol>
         </div>
